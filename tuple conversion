@@ -1,0 +1,4 @@
+tuple(en[x:x + len(np.asarray(batch_input))]  
+      for x in range(0, len(en), len(np.asarray(batch_input)))) 
+      
+      
